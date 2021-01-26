@@ -2,11 +2,15 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Layout from "../components/Layout/Layout";
 
+import SearchInput from "../components/SearchInput/SearchInput";
+
 export default function Home({ countries }) {
   console.log(countries);
   return (
     <Layout>
-      <div>Found {countries.length} countries</div>
+      <div className={styles.count}>Found {countries.length} countries</div>
+
+      <SearchInput placeholder="Filter by Name, Region, Subregion" />
     </Layout>
   );
 }
