@@ -4,7 +4,11 @@ import Layout from "../components/Layout/Layout";
 
 export default function Home({ countries }) {
   console.log(countries);
-  return <Layout>i am children</Layout>;
+  return (
+    <Layout>
+      <div>Found {countries.length} countries</div>
+    </Layout>
+  );
 }
 
 export const getStaticProps = async () => {
