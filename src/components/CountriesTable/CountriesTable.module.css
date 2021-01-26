@@ -1,0 +1,29 @@
+.heading {
+  display: flex;
+  padding: 20px;
+}
+
+.heading_button {
+  border: none;
+  background-color: transparent;
+}
+
+.heading_name,
+.heading_population {
+  flex: 1;
+  padding: 20px;
+  color: var(--text-color-secondary);
+}
+
+.row {
+  display: flex;
+  padding: 20px;
+}
+
+.name {
+  flex: 1;
+}
+
+.population {
+  flex: 1;
+}

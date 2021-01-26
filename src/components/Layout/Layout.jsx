@@ -23,7 +23,7 @@ const Layout = ({ children, title = "World Ranks" }) => {
             <h1>{children}</h1>
         </main>
 
-        <footer className={styles.footer}>Designed & Developer by <a href="https://github.com/abon">@abon</a> devlab.io</footer>
+        <footer className={styles.footer}>Designed & Developed by <a href="https://github.com/abon">@abon</a> devlab.io</footer>
     </div>
 }
 
